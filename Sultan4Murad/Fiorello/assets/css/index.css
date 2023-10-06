@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+header{
+    width: 1370px;
+    height: 115px;
+    padding-left: 125px;
+    color: #6d6a6a;
+    display: flex;
+position: relative;
+
+}
+.image{
+    width: 212px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+
+}
+.image img{
+    width: 205px;
+    height: 25px;
+    cursor: pointer;
+}
+.footer1{
+    position: absolute;
+    width: 808px;
+    height: 115px;
+    right: 120px;
+    color: white;
+    display: flex;
+}
+
+.yazi {
+    position: relative;
+    width: 95px;
+    height: 115px;
+    padding: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #272727;
+    
+}
+
+
+.yazi-detay {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    padding: 20px;
+    cursor: pointer;
+
+}
+.yazi li:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(77, 77, 77);
+
+}
+.yazi:hover .yazi-detay {
+    display: block;
+}
+
+#text1{
+
+width: 100%;
+
+}
+
+
+
+.yazi li{
+  color: #1B1B1B;
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
+padding-bottom: 10px;
+list-style: none;
+}
+.px12{
+    font-size: 12px;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 15px;
+color: #1b1b1b;
+}
+#detay1{
+width: 730px;
+}
+#home{
+    text-decoration: underline;
+}
+.px12:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(77, 77, 77);
+}
+
+
+
+
+
+
+
+.yazi2 {
+    position: relative;
+    width: 95px;
+    height: 115px;
+    padding: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #272727;
+}
+
+.yazi2 li:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(77, 77, 77);
+
+}
+.yazi2:hover .yazi-detay {
+    display: block;
+    
+}
+.yazi2 li{
+  color: #1B1B1B;
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
+  padding-bottom: 10px;
+  list-style: none;
+animation-name: yazi;
+}
+
+.text{
+    display: flex;
+
+}
+
+.text span{
+    display: flex;
+}
+.product{
+
+    font-family: "Playfair Display",serif;
+    font-size: 25px;
+    color: #1b1b1b;
+    float: left;
+    padding: 0 20px 20px;
+  
+}
+
+
+
+
+.yazi3 {
+    position: relative;
+    width: 120px;
+    height: 115px;
+    padding: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #272727;
+}
+
+.yazi-detay {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    padding: 20px;
+    cursor: pointer;
+}
+.yazi3 li:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(77, 77, 77);
+
+}
+.yazi3:hover .yazi-detay {
+    display: block;
+}
+.yazi3 li{
+  color: #1B1B1B;
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
+padding-bottom: 10px;
+list-style: none;
+}
+
+#img1{
+margin-bottom: 4px;
+   color: #1B1B1B;
+cursor: pointer;
+}
+#img1:hover{
+    color: red;
+}
+#img2{
+    padding-left: 70px;
+    padding-right: 10px;
+    color: #1B1B1B;
+    cursor: pointer;
+}
+.carts{
+    display: flex;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 46px;
+    color: #1B1B1B;
+    cursor: pointer;
+    position: relative;
+
+}
+.carts2{
+padding-left: 5px;
+}
+
+
+.detay {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    padding: 20px;
+
+}
+.carts:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(77, 77, 77);
+
+}
+.carts:hover .detay {
+    display: block;
+
+
+
+
+
+
+
+
+
+    
+}
